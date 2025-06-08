@@ -29,7 +29,7 @@ async function getRandomSong() {
 }
 
 cmd({
-    pattern: "song",
+    pattern: "mysong",
     alias: "play",
     desc: "ගීත බාගත කිරීම සඳහා.",
     react: "🎵",
