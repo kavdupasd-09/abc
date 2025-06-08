@@ -63,5 +63,6 @@
     "jimp": "0.16.1",
     "cricketlive": "latest",
     "node-cache":  "latest"
+    "denethdev-ytmp3":"1.0.3"
   }
 }
