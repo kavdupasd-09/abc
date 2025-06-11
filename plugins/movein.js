@@ -1,8 +1,8 @@
 
 
 const axios = require('axios');
-const { cmd } = require('../command');
-const config = require('../config'); // Ensure your API key is in config
+const { cmd } = require('../lib/command');
+const config = require('../settings'); // Ensure your API key is in config
 
 // Command to fetch movie details
 cmd({
