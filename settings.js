@@ -9,4 +9,5 @@ SESSION_ID: process.env.SESSION_ID === undefined ? 'aF1ngRCA#4FRW5y-JX0EOiEpQJff
 PORT: process.env.PORT === undefined ? "8000" : process.env.PORT,
 SESSION_NAME: process.env.PORT === undefined ? "asitha" : process.env.SESSION_NAME,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgresql://postgres:@Asitha2005b@db.waiqbrnuxkjebghzhovz.supabase.co:5432/postgres' : process.env.POSTGRESQL_URL,
+OMDB_API_KEY: process. env.OMDB_API_KEY || "76cb7f39",   
 };
