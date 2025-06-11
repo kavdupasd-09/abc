@@ -3,7 +3,7 @@ Please Give Credit 🙂❤️
 ⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ©𝐌𝐑 𝐌𝐀𝐍𝐔𝐋 𝐎𝐅𝐂 💚
 */
 
-const { cmd, commands } = require('../command');
+const { cmd, commands } = require('../lib/command');
 const { fetchJson } = require('../lib/functions');
 const domain = `https://mr-manul-ofc-apis.vercel.app/`;
 const api_key = `Manul-Ofc-Sl-Sub-Key-9`;
@@ -102,8 +102,8 @@ cmd({
                                     url: directDownloadUrl
                                 },
                                 mimetype: 'video/mp4',
-                                fileName: `🎬𝗞𝗔𝗩𝗜-𝗠𝗗🎬${movieDetails.title} - ${selectedLink.quality}.mp4`,
-                                caption: `\n\n*~🔱𝗡𝗔𝗠𝗘:-~${movieDetails.title}*\n\n*~🔱𝗤𝗨𝗔𝗟𝗬𝗧𝗬:-~${selectedLink.quality}*\n> *Download Withing 14 Days.❗*\n> *Enjoy & Stay With Us✨*\n\n𝐌𝐚𝐝𝐞 𝐛𝐲 *𝐊𝐀𝐕𝐈𝐃𝐔 𝐑𝐀𝐒𝐀𝐍𝐆𝐀*  🌟`
+                                fileName: `_🎬KAVI-MD🎬_ ${movieDetails.title} - ${selectedLink.quality}.mp4`,
+                                caption: `\n*Name:- ${movieDetails.title}*\n\n*Quality:- ${selectedLink.quality}*\n> *Download Withing 14 Days.❗*\n> *Enjoy & Stay With Us✨*\n\n𝐌𝐚𝐝𝐞 𝐛𝐲 *𝐊𝐀𝐕𝐈𝐃𝐔 𝐑𝐀𝐒𝐀𝐍𝐆𝐀*  🌟`
                             }, { quoted: pdReply });
 
                     await conn.sendMessage(from, { react: { text: '✅', key: mek.key } });
